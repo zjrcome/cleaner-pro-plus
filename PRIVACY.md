@@ -55,5 +55,5 @@ If this privacy policy is updated, the changes will be reflected in this documen
 
 ## Contact
 
-If you have any questions about this privacy policy, please open an issue on the [GitHub repository](https://github.com/YOUR_USERNAME/cleaner-pro-plus).
+If you have any questions about this privacy policy, please open an issue on the [GitHub repository](https://github.com/zjrcome/cleaner-pro-plus).
 
