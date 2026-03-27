@@ -44,9 +44,7 @@ No data of any kind is sold, transferred, or shared with any third party.
 | Permission | Purpose |
 |------------|---------|
 | `storage` | Save user settings (keywords, whitelist, on/off state) |
-| `activeTab` | Communicate between popup and the active tab |
-| `tabs` | Query active tab to send/receive messages |
-| `scripting` | Inject the content script that removes matched elements |
+| `tabs` | Query active tab to send/receive messages between popup and content script |
 | `content_scripts (all URLs)` | Run the cleaner on any website the user visits |
 
 ## Changes to This Policy

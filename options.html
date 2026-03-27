@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body { font-family: "Microsoft YaHei", sans-serif; padding: 20px; max-width: 500px; margin: 0 auto; }
+h2 { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 8px; }
+label { display: block; margin-top: 14px; font-weight: bold; color: #555; }
+.hint { font-size: 12px; color: #888; margin-top: 2px; }
+input, textarea {
+    width: 100%; margin-top: 5px; padding: 8px; border: 1px solid #ccc;
+    border-radius: 4px; box-sizing: border-box; font-size: 14px;
+}
+textarea { height: 100px; resize: vertical; }
+button {
+    margin-top: 16px; padding: 10px 24px; background: #007bff; color: #fff;
+    border: none; border-radius: 4px; cursor: pointer; font-size: 14px;
+}
+button:hover { background: #0056b3; }
+.msg { margin-top: 10px; color: #28a745; font-size: 14px; display: none; }
+</style>
+</head>
+<body>
+<h2>⚙️ 规则配置</h2>
+
+<label>🔑 关键词（英文逗号分隔）</label>
+<div class="hint">包含这些关键字的按钮/链接将被自动移除，如: 开卡,立即申请,马上办理</div>
+<input id="keywords" placeholder="开卡,立即申请"/>
+
+<label>🛡️ 白名单（每行一个域名）</label>
+<div class="hint">包含以下域名的页面不会被清理，如: github.com</div>
+<textarea id="whitelist" placeholder="github.com&#10;example.com"></textarea>
+
+<button id="save">💾 保存配置</button>
+<div class="msg" id="msg">✅ 配置已保存，已打开页面将自动生效！</div>
+
+<script src="options.js"></script>
+</body>
+</html>
